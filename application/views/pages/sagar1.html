@@ -1,0 +1,972 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nagar Palika Sagar</title>
+
+<!------jquery tab------------>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+
+
+<style>
+header .container-fluid{
+	background:#1A446A;
+	}
+.header_upper_div{
+	background: #C4D5E5;
+	padding-top:10px;
+	padding-bottom:10px;
+/*	margin-top: 20px;*/
+	}
+.header_upper_div img{
+	padding:0px 0px 10px 0px;
+	}
+.exta_link{
+	padding: 0px;
+margin: 0px;
+float: right;
+	}
+.exta_link li{
+	list-style:none;
+	float:left;
+	}
+.exta_link li a{
+	text-decoration:none;
+border-right: 1px solid #BABABA;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 12px;
+}
+.exta_link li:last-child a{border-right:none;}
+.heder_row2_col1{
+	height: 40px;
+line-height: 40px;	
+	}
+.heder_row2_col1 ul{
+	padding: 0px;
+margin: 0px;
+background: #E8F0F8 none repeat scroll 0% 0%;
+height: inherit;
+box-shadow: 1px 1px 1px #C2C5D5;
+}
+.heder_row2_col1 ul li{
+	list-style: none;
+	float: left;
+font-size: 16px;
+	}
+	.heder_row2_col1 ul li:hover{
+	border-bottom:2px solid #1A446A;
+	}
+.heder_row2_col1 ul li a:active{
+	border-bottom:2px solid #1A446A;	
+}
+.heder_row2_col1 ul li a{
+		text-decoration: none;
+border-left: 1px solid #D6D6F3;
+padding-left: 11px;
+padding-right: 11px;
+		}
+.heder_row2_col1 ul li:first-child a{
+	border-left: none;
+	}
+.main_section{
+/*	background:#ECF1F5;*/background: #1A446A;
+	}
+.main_section > .container{
+	border-right: 1px solid #C4D5E5;
+border-left: 1px solid #C4D5E5;
+	background:#fff;
+}
+.main_section .carousel.slide{
+	padding: 15px 0px 15px 0px!important;
+		}
+.main_row1_col2{
+	padding-left: 0px;
+	}
+
+.main_row1_col2 > div{
+	min-height: 350px;
+	margin-top: 15px;
+	border: 1px solid #C4D5E5;
+	background: #ECF1F5;
+	padding:0px;
+	border-top:none;
+	}
+.leader_msg_div{
+	padding:15px;
+	}
+.leader_msg_div > div:first-child{
+padding:0px;
+margin:0px;	
+}
+.leader_msg_div div img{
+	border: 7px solid #C4D5E5;
+	}
+.leader_msg_name .leader_msg_name_div p:first-child{
+	font-size: 20px;
+color: #B32A2A;
+font-weight: 200;
+margin:0px;
+	}
+.leader_msg_name .leader_msg_name_div p:nth-child(2){
+font-size: 14px;
+color: #8F8C8C;
+font-weight: 200;
+margin:0px;
+	}
+.leader_msg_name{
+	position: relative;
+height: 150px;
+	}
+.leader_msg_name_div{
+position: absolute;
+left: 0px;
+bottom: 0px;
+	}
+.leader_msg_text{
+	padding: 30px 0px 0px;
+	}
+.leader_msg_text .fa.fa-quote-left{
+	position: absolute;
+font-size: 44px;
+top: 13px;
+text-indent: 80px;
+opacity: 0.1;
+	}
+.leader_msg_text p {text-indent: 100px;
+text-align: justify;
+color: #4A4A4A;
+font-size: 15px;
+font-weight: 600;
+}
+.main_row2{
+	text-align: center;
+padding: 15px 0px;
+	}
+.main_row2 > div > div{
+	border: 1px solid #C4D5E5;
+	padding:20px;
+	background: #ECF1F5;
+	}
+.main_row2 .fa{
+	font-size: 40px;
+height: 80px;
+width: 80px;
+line-height: 80px;
+border-radius: 50%;
+border: 2px solid #1A446A;
+color: #1A446A;
+margin-bottom: 15px;
+	}
+.main_row2 > div > div p:nth-child(2){
+font-size: 18px;
+color: #1A446A;
+margin-bottom: 10px;
+	}
+	/*
+.main_row2 > div > div p:nth-child(2):after{
+	margin: -1px auto;
+background-color: #EFD306;
+content: "";
+display: block;
+height: 3px;
+position: relative;
+width: 100px;
+top: 8px;
+	}*/
+.main_row2 > div > div p:nth-child(3){
+font-size: 16px;
+color: #8F8C8C;
+margin-bottom: 20px;
+	}
+.main_row2 > div > div a{
+	text-transform: uppercase;
+background: rgb(26, 68, 106) none repeat scroll 0% 0%;
+padding: 5px 10px;
+color: rgb(255, 255, 255);
+	}
+.page_link{
+		text-transform: uppercase;
+background: rgb(26, 68, 106) none repeat scroll 0% 0%;
+padding: 5px 10px;
+color: rgb(255, 255, 255);
+	}
+.main_row3 > div > div{
+	border: 1px solid #C4D5E5;
+background: #ECF1F5 none repeat scroll 0% 0%;
+padding: 20px;
+text-align:center;
+	}
+.main_row3 > div > div p:first-child{
+font-size: 25px;
+color: rgb(26, 68, 106);
+margin-bottom: 30px;
+	}
+.main_row3 > div > div p:first-child:after{
+margin: -1px auto;
+background-color: #EFD306;
+content: "";
+display: block;
+height: 4px;
+position: relative;
+width: 100px;
+top: 8px;
+	
+}
+.main_row3{
+	padding-bottom:15px;
+	}
+.main_row3 > div > div p:nth-child(2){
+font-size: 16px;
+color: #8F8C8C;
+margin-bottom: 20px;
+text-align:justify;
+	}
+.header_social_link{
+	float:right;
+	padding: 0px;
+margin: 0px;
+	}
+.header_social_link li{
+text-decoration: none;
+margin-left: 8px;
+margin-right: 8px;
+list-style: none;
+float: left;
+height: 30px;
+width: 30px;
+line-height: 30px;
+text-align: center;
+font-size: 20px;
+background: #ccc none repeat scroll 0% 0%;
+	}
+.social_link_row, .extra_link_row{
+	margin-bottom:20px;
+	}
+
+.images_row > div > div{
+	border: 1px solid #C4D5E5;
+background: #ECF1F5 none repeat scroll 0% 0%;
+padding: 20px;
+text-align:center;
+	}
+.main_row4{
+	padding-bottom:15px;
+	padding-top:15px;
+	}
+.leader_images_head{
+	font-size: 25px;
+color: #1A446A;
+margin-bottom: 30px;
+text-align: center;
+	}
+.leader_images_head:after{
+    margin: 0px auto;
+    background-color: #EFD306;
+    content: "";
+    display: block;
+    height: 4px;
+    position: relative;
+    width: 150px;
+    top: 0px;
+}
+
+.leader_image_div{
+		display: inline-block;
+margin: 5px;
+height: 150px;
+overflow: hidden;
+position: relative;
+		}
+.leader_name{
+/*
+position: absolute;
+top: 18%;
+left: 16%;
+text-align: center;
+width: 100px;
+height: 100px;
+line-height: 100px;
+background: rgba(6, 9, 47, 0.7) none repeat scroll 0% 0%;
+font-size: 18px;
+color: #FFF;
+opacity: 0;
+transition: all 0.3s ease 0s;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+*/
+position: absolute;
+bottom: 0%;
+left: 0%;
+text-align: center;
+width: 150px;
+background: rgba(6, 9, 47, 0.7) none repeat scroll 0% 0%;
+font-size: 14px;
+color: #FFF;
+transition: all 0.3s ease 0s;
+transform: translate(0px, 55px);
+}
+.leader_name span{
+	color:#EFD306;
+	font-size:12px;
+	}
+.leader_image_div:hover .leader_name{
+transform: translate(0px, 0px);
+/*
+top: 0%;
+left: 0%;
+text-align: center;
+width: 150px;
+height: 150px;
+line-height: 150px;
+font-size: 18px;
+color: #FFF;
+opacity: 1;
+*/
+	}
+/*
+.leader_image_div img{
+		transition:all 0.5s;
+		}
+.leader_image_div:hover img{
+	transform:scale(1.1,1.1);
+	}*/
+.main_row4_quicklink > div {
+	border: 1px solid #C4D5E5;
+background: #ECF1F5 none repeat scroll 0% 0%;
+height:570px;
+	}
+.quick_link_div{
+height: 60px;
+line-height: 60px;
+border: 1px solid #C4D5E5;
+margin: 5px 10px;
+padding: 0px;
+width: 96% !important;
+background: #FFF none repeat scroll 0% 0%;
+	}
+.quick_link_div p{
+float: left;
+font-size: 16px;
+color: #8F8C8C;
+margin-left: 15px;
+}
+.quick_link_div:hover i{
+	background: #FFE20A;
+	}
+.quick_link_div i{
+float: right;
+margin-right: 15px;
+background: #FFF none repeat scroll 0% 0%;
+font-size: 25px;
+color: #1A446A;
+border: 1px solid #1A446A;
+border-radius: 50%;
+margin-top: 6px;
+height: 45px;
+width: 45px;
+line-height: 45px;
+text-align: center;
+}
+.main_row4_quicklink > div > div:first-child p:first-child{
+	font-size: 25px;
+color: #1A446A;
+text-align: center;
+margin-top: 15px;
+	}
+	/*
+.main_row4_quicklink > div > div:first-child p:first-child:after{
+margin: 0px auto;
+background-color: #EFD306;
+content: "";
+display: block;
+height: 4px;
+position: relative;
+width: 150px;
+top: 0px;
+	}*/
+.sec_head{
+	font-size: 25px;
+color: #1A446A;
+	}
+.row.main_row5 > div{ 
+	min-height: 369px;
+	}
+.row.main_row5 > div > div{
+		border: 1px solid #C4D5E5;
+background: #ECF1F5 none repeat scroll 0% 0%;
+padding: 15px;
+min-height: inherit;
+		}
+.row.main_row5 > div > div li{
+	list-style: outside none none;
+font-size: 16px;
+line-height: 28px;
+			}
+.row.main_row5 > div > div li a{
+text-decoration:none;	
+}
+.row.main_row5 > div > div ul{
+	padding: 0px;
+	}
+.row.main_row5 > div > div li:before {    
+font-family: "FontAwesome";
+content: "";
+margin: 0px 15px 0px 0px;
+color: #C2C2C2;
+border-radius: 50%;
+border: 1px solid #D3E8FB;
+padding: 3px;
+background: #E9E9E9 none repeat scroll 0% 0%;
+transition:all 0.3s;
+}
+.row.main_row5 > div > div li:hover:before{
+color: #1A446A;
+/*font-size: 18px;*/
+border: 1px solid #1A446A;
+background: #FFF none repeat scroll 0% 0%;
+	}
+.contact_form input[type="text"]{
+width: 100%;
+border: 1px solid #C4D5E5;
+margin: 5px 0px;
+font-size: 14px;
+padding: 5px 8px;
+	}
+.contact_form textarea{
+border: 1px solid #C4D5E5;
+margin: 5px 0px;
+font-size: 14px;
+padding: 5px 8px;
+	}
+.contact_form input[type="submit"]{
+	text-transform: uppercase;
+background: #1A446A none repeat scroll 0% 0%;
+padding: 5px 10px;
+color: #FFF;
+border: medium none;
+margin: 5px 0px;
+	}
+.main_row5{
+	margin-bottom:15px;
+	}
+footer{
+	background: #1A446A;
+padding: 20px 0px;
+color:#fff;
+	}
+footer > div > div [class^="footer_area"]{
+	border:1px solid #C4D5E5;
+	height:200px;
+	background:#fff;
+}
+.footer_top_upper{
+	background: #1A446A;
+padding: 15px 0px;
+color: #B7B7B7;
+	}
+.footer_top_upper .footer_top p{
+	margin:0px;
+	}
+.footer_top_upper .footer_top a{
+color: #B7B7B7;
+	}
+.footer_sec_head{
+	font-size: 22px;
+color: #fff;
+margin-bottom: 25px;
+	}
+.footer_area2 a{
+	text-transform: uppercase;
+background: #fff;
+padding: 5px 10px;
+color: #1A446A;
+	}
+.footer_area1 span{
+color:	#EFD306;
+}
+.footer_area4 .header_social_link {
+    float: none!important;
+}
+.footer_area3 ul{
+	padding-left: 18px;
+	}
+.footer_area3 ul li a{
+	font-size: 15px;
+color: rgb(255, 255, 255);
+	}
+/*****************************/
+
+.ui-widget-header {
+    border: 0px;
+    background: none;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 0em 36	px;
+    background: #ECF1F5;
+}
+.ui-tabs .ui-tabs-panel {
+    padding: 0em;
+}
+.ui-tabs .ui-tabs-nav {
+    padding: 0px;
+}
+/********************************/
+
+.about_text > div {
+border: 1px solid #C4D5E5;
+background: #ECF1F5 none repeat scroll 0% 0%;
+text-align: justify;
+padding: 15px;
+font-size: 16px;
+color: #8F8C8C;
+min-height:570px;
+
+	}
+.about_text > div > p:first-child{
+	font-size: 25px;
+color: #1A446A;
+text-align: center;
+	}
+.about_text{
+	padding-bottom: 15px;
+	}
+</style>
+</head>
+
+<body>
+    <header>
+    	<div class="container-fluid">
+            <div class="container header_upper_div">
+                <div class="row heder_row1">
+                    <div class="col-xs-12 col-sm-2 col-md-2"><img src="logo_sagar.jpg" height="" width=""></div>
+                    <div class="col-xs-12 col-sm-10 col-md-10">
+                        <div class="row extra_link_row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <ul class="exta_link">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row social_link_row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                            	<ul class="header_social_link">
+                                	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                  	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                	<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row heder_row2">
+                    <div class="col-xs-12 col-sm-12 col-md-12 heder_row2_col1">
+                        <ul class="">
+                          <li><a href="http://localhost/sagar/">Home</a></li>
+                          <li><a href="#">Preface</a></li>
+                          <li><a href="#">Civic Center</a></li>
+                          <li><a href="#">Taxtation</a></li>
+                          <li><a href="#">Birth & death</a></li>
+                          <li><a href="#">For Hospital Use</a></li>
+                          <li><a href="#">Balance Sheet</a></li>
+                          <li><a href="#">Complaint</a></li>
+                          <li><a href="#">Online Tender</a></li>
+                          <li><a href="#">For Office Use</a></li>
+                          <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+		</div>
+    </header>
+
+
+<div class="container-fluid main_section">
+    <div class="container">
+        <div class="row main_row1">
+            <div class="col-xs-12 col-sm-8 col-md-8 main_row1_col1">          
+            	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators 
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
+                -->
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="home_slider_one.jpg" alt="">
+                      <div class="carousel-caption">
+                                  
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="home_slider_two.jpg" alt="">
+                      <div class="carousel-caption">
+                        
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="home_slider_three.jpg" alt="">
+                      <div class="carousel-caption">
+                        
+                      </div>
+                    </div>
+                  </div>
+               
+                  <!-- Controls 
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>-->
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 main_row1_col2">
+            	<div id="tabs">
+                	<ul>
+                    	<li><a href="#tabs-1">MP Chief Minister</a></li>
+                        <li><a href="#tabs-2">Proin dolor</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                    	<div class="leader_msg_div">
+                        	<div class="col-xs-12 col-sm-6 col-md-6">
+                            	<img src="shivraj.png" height="" width="150">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 leader_msg_name">
+                                 <div class="leader_msg_name_div">
+                                 	<p>Shivraj Shingh Chouhan</p>
+                                    <p>MP Chief Minister</p>
+                                 </div>
+							</div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 leader_msg_text">
+                            	<i class="fa fa-quote-left"></i>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                             </div>
+						</div> 
+					</div>
+					<div id="tabs-2">
+                    	<div class="leader_msg_div">
+                        	<div class="col-xs-12 col-sm-6 col-md-6">
+                            	<img src="leader2.jpg" height="" width="150">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 leader_msg_name">
+                                 <div class="leader_msg_name_div">
+                                 	<p>Lorem Ipsum genrator</p>
+                                    <p>Minister</p>
+                                 </div>
+							</div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 leader_msg_text">
+                            	<i class="fa fa-quote-left"></i>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                             </div>
+						</div>
+                     </div>
+                    </div>
+            <!----------------
+       			<div class="leader_msg_div">
+                	<div class="col-xs-12 col-sm-6 col-md-6">
+                    	<img src="shivraj.png" height="" width="150">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 leader_msg_name">
+                    	<div class="leader_msg_name_div">
+	                        <p>Shivraj Shingh Chouhan</p>
+    	                    <p>MP Chief Minister</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 leader_msg_text">
+                    <i class="fa fa-quote-left"></i>
+                        	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div> 
+             ------------------->      
+            </div>
+        </div>
+        
+        <div class="row main_row2">
+        	<div class="col-xs-12 col-sm-4 col-md-4 main_row2_col1">
+     			<div>
+                	<i class="fa fa-comments"></i>
+                    <p>Latest Notifiaction</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#">Read More</a>
+                </div>           
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 main_row2_col2">
+     			 <div>
+                 	<i class="fa fa-briefcase"></i>
+                    <p>Online Tender Notice</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#">Read More</a>
+                 </div>       
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 main_row2_col3">
+     			 <div>
+                 	<i class="fa fa-flag"></i>
+                    <p>Current Projects</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#">Read More</a>
+                 </div>        
+            </div>
+        </div>
+        
+        <!--<div class="row main_row3">
+        	<div class="col-xs-12 col-sm-12 col-md-12">
+            	<div>
+                	<p>About Sagar Nagar Nigam</p>
+                    <p>Sagar, historical city in India with a glorious past, an innovative present and a promising future. Since 1950, the  is administrating the city and serving citizens has taken an initiative for implementing e-Governance. Success of e-governance depends on use of Information Technology in mobilization of Government resources and utilization of these scarce resources with an aim of providing a better service.
+<br><br>
+<strong>What would you like to do?</strong>
+<br><br>
+Online Self Assessment (for external use only) Pay my property tax online (secured transaction) Birth & Death Certificate(for external use only) Register a Complaint(GRS).
+
+Sagar, the Oxford of the East is a historical city in India with a glorious past, an innovative present and a promising future. Since 1950, is administrating the city and serving citizens has taken an initiative for implementing e-Governance.
+Sagar, the Oxford of the East is a historical city in India with a glorious past, an innovative present and a promising future. Since 1950, the  is administrating the city and serving citizens.
+<br><br>
+Pune Municipal Corporation has taken an initiative for implementing e-Governance. Success of e-governance depends on use of Information Technology in mobilization of Government resources and utilization of these scarce resources with an aim of providing a better service.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>-->
+        
+        <!--<div class="row main_row4">
+            <div class="col-xs-12 col-sm-7 col-md-7" style="text-align:center;padding:0px;">
+            	<div>
+                	<div class="col-xs-12 col-sm-12 col-md-12 leader_images_head"><p>Sagar Nagar Nigam lorem ipsum</p></div>
+                	<div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                    <div class="leader_image_div"><img src="leader_img1.jpg"><div class="leader_name">lorem ipsum<br><span>lorem Minister</span></div></div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-5 main_row4_quicklink" style="padding-left:0px;">
+            	<div>
+                	<div class="col-xs-12 col-sm-12 col-md-12">
+                    	<p>Quick links</p>
+                    </div>
+                	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                    	<p><a href="#">पदस्थ महापौरों नाम एवं कार्यकाल सूची</a></p>
+                        <i class="fa fa-users"></i>
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                    	<p><a href="#">पदस्थ आयुक्त नाम एवं कार्यकाल सूची</a></p>
+                        <i class="fa fa-paperclip"></i>
+
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                    	<p><a href="#">Parishad</a></p>
+                        <i class="fa fa-university"></i>
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                    	<p><a href="#">RTI</a></p>
+                        <i class="fa fa-star"></i>                    
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                     	<p><a href="#">Important No.</a></p>
+                        <i class="fa fa-bolt"></i>                   
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                     	<p><a href="#">Downloads</a></p>
+                        <i class="fa fa-download"></i>
+                   
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                     	<p><a href="#">Notification</a></p>
+                        <i class="fa fa-comments"></i>
+                    </div>
+                   	
+                </div>
+            </div>
+        </div>-->
+        <div class="row row_about">
+        	<div class="col-xs-12 col-sm-7 col-md-7 about_text">
+            	<div>
+                	<p>About Sagar Nagar Nigam</p>
+                    <p>Sagar, historical city in India with a glorious past, an innovative present and a promising future. Since 1950, the  is administrating the city and serving citizens has taken an initiative for implementing e-Governance. Success of e-governance depends on use of Information Technology in mobilization of Government resources and utilization of these scarce resources with an aim of providing a better service.
+<br><br>
+<strong>What would you like to do?</strong>
+<br><br>
+Online Self Assessment (for external use only) Pay my property tax online (secured transaction) Birth & Death Certificate(for external use only) Register a Complaint(GRS).
+
+Sagar, the Oxford of the East is a historical city in India with a glorious past, an innovative present and a promising future. Since 1950, is administrating the city and serving citizens has taken an initiative for implementing e-Governance.
+Sagar, the Oxford of the East is a historical city in India with a glorious past, an innovative present and a promising future. Since 1950, the  is administrating the city and serving citizens.
+<br><br>
+Pune Municipal Corporation has taken an initiative for implementing e-Governance. Success of e-governance depends on use of Information Technology in mobilization of Government resources and utilization of these scarce resources with an aim of providing a better service.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-5 main_row4_quicklink" style="padding-left:0px;">
+            	<div>
+                	<div class="col-xs-12 col-sm-12 col-md-12">
+                    	<p>Quick links</p>
+                    </div>
+                	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                    	<p><a href="#">पदस्थ महापौरों नाम एवं कार्यकाल सूची</a></p>
+                        <i class="fa fa-users"></i>
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                    	<p><a href="#">पदस्थ आयुक्त नाम एवं कार्यकाल सूची</a></p>
+                        <i class="fa fa-paperclip"></i>
+
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                    	<p><a href="#">Parishad</a></p>
+                        <i class="fa fa-university"></i>
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                    	<p><a href="#">RTI</a></p>
+                        <i class="fa fa-star"></i>                    
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                     	<p><a href="#">Important No.</a></p>
+                        <i class="fa fa-bolt"></i>                   
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                     	<p><a href="#">Downloads</a></p>
+                        <i class="fa fa-download"></i>
+                   
+                    </div>
+                   	<div class="col-xs-12 col-sm-12 col-md-12 quick_link_div">
+                     	<p><a href="#">Notification</a></p>
+                        <i class="fa fa-comments"></i>
+                    </div>
+                   	
+                </div>
+            </div>
+        </div>
+        <div class="row main_row5">
+        	<div class="col-xs-12 col-sm-4 col-md-4">
+            	<div>
+                	<p class="sec_head">Preface</p>
+                    <ul>
+                    	<li><a href="#">निर्वाचित सदस्‍यों के नाम व विवरण</a></li>
+						<li><a href="#">सामान्‍य जानकारियॉ</a></li>
+                    	<li><a href="#">नगरपालिका के अधिकारी एवं कर्मचारी</a></li>
+						<li><a href="#">सडकों पर लाईट व्‍यवस्‍था</a></li>
+                        <li><a href="#">कचरा निवटान हेतु संसाधनो की</a></li>
+                        <li><a href="#">जलआवंटन संरचना एवं स्‍ञोत</a></li>
+                        <li><a href="#">कंप्‍यूटरीकरण</a></li>
+                        <li><a href="#">नगर की मुख्‍य सडकें</a></li>
+                        <li><a href="#">नगर की मुख्‍य पाठशालायें</a></li>
+                        <li><a href="#">सगर नगर की मुख्‍य पाठशालायें</a></li>
+                    </ul>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+            	<div>
+                	<p class="sec_head">Facilities</p>
+                    <ul>
+                    	<li><a href="#">Building Permissions</a></li>
+						<li><a href="#">Online Taxation</a></li>
+                    	<li><a href="#">E-Governance</a></li>
+						<li><a href="#">Public Grievances</a></li>
+                        <li><a href="#">Budget Notice</a></li>
+						<li><a href="#">Shop Licence</a></li>
+                        <li><a href="#">Solid Waste</a></li>
+						<li><a href="#">Online Tenders</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+            	<div>
+                	<p class="sec_head">Contact</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p><br>
+                    <form action="" method="post" name="home_contact_form" class="contact_form">
+                    	<input type="text" name="uname" placeholder="Your Name">
+                        <input type="text" name="uname" placeholder="Your Phone Number">
+                        <textarea rows="3" cols="45" name="uname" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 footer_area1">
+            	<p class="footer_sec_head">Help Line Numbers</p>
+                <p>Collector Office Number: <span><strong>+91-123456789</strong></span></p>
+				<p>Lorem ipsum: <span><strong>+91-123456789</strong></span></p>
+                <p>Ipsum Genrator: <span><strong>+91-123456789</strong></span></p>
+                <p>Sagar Office Number: <span><strong>+91-123456789</strong></span></p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 footer_area2">
+            	<p class="footer_sec_head">Latest Notifiaction</p>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p style="margin-top:30px;"><a href="#">Read More</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 footer_area3">
+            	<p class="footer_sec_head">Quick Links</p>
+                <ul>
+                	<li><a href="#">निर्वाचित सदस्‍यों के नाम व विवरण</a></li>
+					<li><a href="#">सामान्‍य जानकारियॉ</a></li>
+                   	<li><a href="#">नगरपालिका के अधिकारी एवं कर्मचारी</a></li>
+					<li><a href="#">सडकों पर लाईट व्‍यवस्‍था</a></li>
+                    <li><a href="#">कचरा निवटान हेतु संसाधनो की</a></li>
+                </ul>         
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 footer_area4">
+            	<p class="footer_sec_head">Get Social</p>
+                	<ul class="header_social_link">
+                    	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    	<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>           
+            </div>
+    	</div>
+    </div>
+
+</footer>-->
+
+    <div class="container-fluid footer_top_upper">
+    	<div class="container">
+   			<div class="row footer_top_row">
+        		<div class="col-xs-12 col-sm-12 col-md-12 footer_top">
+                	<p style="float:left;">Copyright 2015 <i class="fa fa-copyright"></i></p>
+                	<p style="float:right">Designed By: <a href="http://www.empexus.com">Empexus</a></p>
+            	</div>
+        	</div>
+        </div>
+	</div>
+</body>
+</html>
